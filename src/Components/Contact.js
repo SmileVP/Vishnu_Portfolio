@@ -56,9 +56,6 @@ function Contact() {
             <a href={CodeUrl.githubUrl} target={CodeUrl.blank}>
               <img src={Github} className="img-details" alt="" />
             </a>
-            <a href={CodeUrl.netlify} target={CodeUrl.blank}>
-              <img src={Netlify} className="img-details" alt="" />
-            </a>
           </div>
         </div>
       </div>
