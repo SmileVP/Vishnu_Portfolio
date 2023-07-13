@@ -46,7 +46,7 @@ function Contact() {
           <div className="mail-details">
             <span className="color-green">Mail:</span>
             <br />
-            vishnupriya.ajeeth@gmail.com
+            smilewithvishnu@gmail.com
           </div>
         </div>
         {/* <--Media link details-->  */}
