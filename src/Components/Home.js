@@ -11,7 +11,7 @@ function Home() {
         </h2>
         <h4 className="stack-hd">Full stack developer</h4>
         <a
-          href="https://drive.google.com/file/d/1Ce9j0qXNk3v1vZon898hZDoS-NhUsS7E/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1Ce9j0qXNk3v1vZon898hZDoS-NhUsS7E/view?usp=sharing"
           target="_blank"
           rel=" noopener noreferrer"
         >
