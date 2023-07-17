@@ -116,56 +116,6 @@ function Projects() {
                 </div>
               </div>
             </div>
-
-            {/* <--Instagram Clone project details-->  */}
-            <div class="card">
-              <div class="face face1">
-                <div class="content">
-                  <img src={instag} />
-                  <h3>Instagram Clone</h3>
-                </div>
-              </div>
-              <div class="face face2">
-                <div class="content">
-                  <p>
-                    In this project I have used ReactJS,NodeJS,ExpressJS,
-                    Mongodb,Firebase and Cloudinary API
-                  </p>
-                  <a href={CodeUrl.instaFrontendGit} target={CodeUrl.blank}>
-                    <Button
-                      className="project-buttons"
-                      type="button"
-                      variant="success"
-                    >
-                      Frontend Source
-                    </Button>
-                  </a>
-
-                  <a href={CodeUrl.instaBackendGit} target={CodeUrl.blank}>
-                    <Button
-                      className="project-buttons"
-                      type="button"
-                      variant="success"
-                    >
-                      Backend Source
-                    </Button>
-                  </a>
-                  <a
-                    href={CodeUrl.instaDeploy}
-                    target={CodeUrl.blank}
-                    className="m-2"
-                  >
-                    <Button
-                      className="project-buttons"
-                      type="button"
-                      variant="success"
-                    >
-                      Deploy
-                    </Button>
-                  </a>
-                </div>
-              </div>
-            </div>
           </div>
 
           <div class="container mt-2">
@@ -248,6 +198,58 @@ function Projects() {
 
                   <a
                     href={CodeUrl.netflixDeploy}
+                    target={CodeUrl.blank}
+                    className="m-2"
+                  >
+                    <Button
+                      className="project-buttons"
+                      type="button"
+                      variant="success"
+                    >
+                      Deploy
+                    </Button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container mt-2">
+            {/* <--Instagram Clone project details-->  */}
+            <div class="card">
+              <div class="face face1">
+                <div class="content">
+                  <img src={instag} />
+                  <h3>Instagram Clone</h3>
+                </div>
+              </div>
+              <div class="face face2">
+                <div class="content">
+                  <p>
+                    In this project I have used ReactJS,NodeJS,ExpressJS,
+                    Mongodb,Firebase and Cloudinary API
+                  </p>
+                  <a href={CodeUrl.instaFrontendGit} target={CodeUrl.blank}>
+                    <Button
+                      className="project-buttons"
+                      type="button"
+                      variant="success"
+                    >
+                      Frontend Source
+                    </Button>
+                  </a>
+
+                  <a href={CodeUrl.instaBackendGit} target={CodeUrl.blank}>
+                    <Button
+                      className="project-buttons"
+                      type="button"
+                      variant="success"
+                    >
+                      Backend Source
+                    </Button>
+                  </a>
+                  <a
+                    href={CodeUrl.instaDeploy}
                     target={CodeUrl.blank}
                     className="m-2"
                   >

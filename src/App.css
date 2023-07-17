@@ -246,7 +246,7 @@ button.navbar-toggler.collapsed {
 }
 
 .container .card .face {
-  width: 350px;
+  max-width: 350px;
   height: 220px;
   transition: 0.5s;
 }
@@ -366,7 +366,7 @@ button.navbar-toggler.collapsed {
 }
 
 .colorful-form {
-  width: 600px;
+  max-width: 600px;
   margin: 0 auto;
   padding: 20px;
   background-color: gray;
@@ -395,6 +395,7 @@ button.navbar-toggler.collapsed {
 
 textarea.form-input {
   height: 100px;
+  max-width: 35em;
 }
 
 .form-button {
